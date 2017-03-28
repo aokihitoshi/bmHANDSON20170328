@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: bmHANDSON20170328
+  host: bmHANDSON20170328
+  disk_quota: 1024M
+  services:
+  - mineral-cloudantNoSQLDB
+  - availability-monitoring-auto
